@@ -93,16 +93,16 @@ body {
   padding: 8px;
   border-radius: 8px;
 }
-.plan__title{
+.plan__title {
   color: #0e4f1f;
 }
-.plan__price{
+.plan__price {
   color: #858585;
 }
-.plan--highlighted .plan__title{
+.plan--highlighted .plan__title {
   color: white;
 }
-.plan--highlighted .plan__price{
+.plan--highlighted .plan__price {
   color: #0e4f1f;
 }
 .plan__features {
@@ -113,10 +113,10 @@ body {
 .plan__feature {
   margin: 8px 0px;
 }
-.button{
+.button {
   background: #0e4f1f;
   color: white;
-  font:inherit;
+  font: inherit;
   padding: 8px;
   border-radius: 8px;
   border: 1.5px solid #0e4f1f;
@@ -124,41 +124,64 @@ body {
   cursor: pointer;
 }
 .button:hover,
-.button:active{
+.button:active {
   background: white;
   color: #0e4f1f;
 }
-#key-features{
+#key-features {
   background: #ff1b68;
   padding: 16px;
   margin-top: 80px;
 }
-#key-features .section-title{
-  color:white;
+#key-features .section-title {
+  color: white;
   margin: 32px;
 }
-.key-features__list{
+.key-features__list {
   list-style: none;
   margin: 0;
   padding: 0;
   text-align: center;
 }
-.key-feature{
+.key-feature {
   display: inline-block;
   width: 30%;
   vertical-align: top;
 }
-.key-feature__description{
+.key-feature__description {
   text-align: center;
   font-size: 20px;
   font-weight: bold;
   color: white;
 }
-.key-feature__image{
+.key-feature__image {
   width: 128px;
   height: 128px;
-  background:#ffcede;
+  background: #ffcede;
   border: 2px solid #424242;
   border-radius: 50%;
   margin: auto;
+}
+.main-footer {
+  background: black;
+  padding: 32px;
+  margin-top: 48px;
+}
+.main-footer__links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.main-footer__link {
+  display: inline-block;
+  margin: 0 16px;
+}
+.main-footer__link a {
+  color: white;
+  text-decoration: none;
+}
+.main-footer__link a:hover,
+.main-footer__link a:active {
+  color: #ccc;
 }
