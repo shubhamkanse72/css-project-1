@@ -1,5 +1,5 @@
 #product-overview {
-  background: url("images/freedom.jpg") left 10% bottom 20%/cover no-repeat border-box;
+  background: url("images/freedom.jpg") left 10% bottom 75%/cover no-repeat border-box;
   /* background-image: url("freedom.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -7,8 +7,8 @@
   background-origin: border-box;
   background-clip: border-box;  above code is the shorthand of the following lines*/
   padding: 1.25rem;
-  height: 528px;
-  width: 100%;
+  height: 42vh;
+  width: 100vw;
   margin-top: 2.6rem;
   position: relative;
   /* background: linear-gradient(to right,rgba(250,16,15,0.6),transparent),  url("images/freedom.jpg") left 10% bottom 20%/cover no-repeat border-box; */
