@@ -8,7 +8,7 @@ body {
 .main-header {
   width: 100%;
   background: #2ddf5c;
-  padding: 8px 16px;
+  padding: 0.5rem 1rem;
   position: fixed;
   z-index: 1;
   top:0;
@@ -18,8 +18,8 @@ body {
   text-decoration: none;
   color: #0e4f1f;
   font-weight: bold;
-  font-size: 22px;
-  height: 22px;
+  font-size: 1.37rem;
+  height: 1.37rem;
   display: inline-block;
 }
 .main-header__brand img{
@@ -37,7 +37,7 @@ body {
 }
 .main_nav_item {
   display: inline-block;
-  margin: 0px 16px;
+  margin: 0 1rem;
 }
 .main-header > div,
 .main-nav {
@@ -48,7 +48,7 @@ body {
   text-decoration: none;
   color: #0e4f1f;
   font-weight: bold;
-  padding: 3px 0px;
+  padding: 0.18rem 0;
 }
 .main_nav_item a:hover,
 .main_nav_item a:active {
@@ -59,7 +59,7 @@ body {
   color: white;
   background: #ff1b68;
   border-radius: 8px;
-  padding: 8px 16px;
+  padding: 0.5rem 1rem;
 }
 .main_nav_item_cta a:hover,
 .main_nav_item_cta a:active {
@@ -70,8 +70,8 @@ body {
 
 .main-footer {
   background: black;
-  padding: 32px;
-  margin-top: 48px;
+  padding: 2rem;
+  margin-top: 3rem;
 }
 .main-footer__links {
   list-style: none;
@@ -81,7 +81,7 @@ body {
 }
 .main-footer__link {
   display: inline-block;
-  margin: 0 16px;
+  margin: 0 1rem;
 }
 .main-footer__link a {
   color: white;
@@ -96,7 +96,7 @@ body {
   background: #0e4f1f;
   color: white;
   font: inherit;
-  padding: 8px;
+  padding: 0.5rem;
   border-radius: 8px;
   border: 1.5px solid #0e4f1f;
   font-weight: bold;

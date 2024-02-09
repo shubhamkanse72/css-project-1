@@ -6,10 +6,10 @@
   background-position: left 10% bottom 20%; 
   background-origin: border-box;
   background-clip: border-box;  above code is the shorthand of the following lines*/
-  padding: 20px;
+  padding: 1.25rem;
   height: 528px;
   width: 100%;
-  margin-top: 43px;
+  margin-top: 2.6rem;
   position: relative;
   /* background: linear-gradient(to right,rgba(250,16,15,0.6),transparent),  url("images/freedom.jpg") left 10% bottom 20%/cover no-repeat border-box; */
 }
@@ -31,8 +31,8 @@
 }
 .plan {
   background: #d5ffdc;
-  padding: 16px;
-  margin: 8px;
+  padding: 1rem;
+  margin: 0.5rem;
   text-align: center;
   display: inline-block;
   width: 30%;
@@ -47,7 +47,7 @@
   background: white;
   color: #19b84c;
   box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
-  padding: 8px;
+  padding: 0.5rem;
   border-radius: 8px;
 }
 .plan__title {
@@ -68,16 +68,16 @@
   padding: 0;
 }
 .plan__feature {
-  margin: 8px 0px;
+  margin: 0.5rem 0;
 }
 #key-features {
   background: #ff1b68;
-  padding: 16px;
-  margin-top: 80px;
+  padding: 1rem;
+  margin-top: 5rem;
 }
 #key-features .section-title {
   color: white;
-  margin: 32px;
+  margin: 2rem;
 }
 .key-features__list {
   list-style: none;
@@ -92,7 +92,7 @@
 }
 .key-feature__description {
   text-align: center;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: bold;
   color: white;
 }
@@ -103,5 +103,5 @@
   border: 2px solid #424242;
   border-radius: 50%;
   margin: auto;
-  padding: 20px;
+  padding: 1.25rem;
 }
