@@ -170,3 +170,6 @@ body {
   background: white;
   color: #0e4f1f;
 }
+.open{
+  display: block !important;
+}
