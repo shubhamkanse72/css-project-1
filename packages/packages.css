@@ -1,7 +1,7 @@
 main {
   padding-top: 2rem;
 }
-.background{
+.background {
   background: url("../images/plans-background.jpg") center/cover;
   position: fixed;
   width: 100vw;
@@ -26,7 +26,7 @@ main {
   padding: 2rem;
   display: block;
 }
-.package__badge{
+.package__badge {
   position: absolute;
   top: 0;
   right: 0;
@@ -70,4 +70,18 @@ main {
 }
 #premium .package__subtitle {
   color: #bbb;
+}
+@media (min-width: 41rem) {
+  main {
+    margin: 3rem auto;
+    max-width: 1500px;
+  }
+}
+@media (min-width: 1500px) {
+  .package {
+    border-left: 4px solid #0e4f1f;
+  }
+  #free {
+    border-right: 4px solid #0e4f1f;
+  }
 }
